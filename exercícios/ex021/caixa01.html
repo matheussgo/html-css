@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        h1{ /*elemento do tipo box-level */
+            background-color: lightgrey;
+            height: 300px;
+            width: 300px;
+            border-width: 10px;
+            border-style: solid;
+            background-color: rgb(180, 223, 223);
+
+            border: 10px solid darkslategray;
+
+             /* é o mesmo que:
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkslategray; */
+
+            padding: 10px;
+
+            /* é o mesmo que:
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px; */
+
+            margin: 20px auto 40px auto;
+
+            /* é o mesmo que:
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px; */
+
+            outline: 5px dashed salmon;
+
+            /* é o mesmo que:
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon; */
+
+        }
+        a{ /*elemento do tipo inline-level */
+            border-width: 5px;
+            border-style: solid;
+            border-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#" target="_blank">links também são exemplos de box-level.</a> Vamos ver como tudo funciona.</p>
+    <h2>teste de tabela2</h2>
+
+<!--
+        <table border="10">
+        <thead>
+            <style>
+                .titulotabela{
+                    background-color: bisque;
+                }
+            </style>
+        </thead>
+        <tfoot>rodapé da tabela</tfoot>
+        <tbody>
+        <tr class="titulotabela">
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+        <tr>
+            <td>Fulano</td>
+            <td>150 anos</td>
+        </tr>
+        </tbody>
+    </table> 
+-->
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Zenzai Itacha';
+    src: url(Zenzai Itacha.ttf) format('truetype'), url(Zenzai Itache.ttf) format(truetype), url(Zenzai Itachi.ttf) format(truetype);
+    /*
+    Tipos de format()
+    - opentype (otf)
+    - truetype (ttf)
+    - embedded-opentype
+    - truetype-aat (apple advanced typography)
+    - svg
+    */
+}
+body{font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    font-family: 'Zenzai Itacha', 'Zenzai Itache', 'Zenzai Itachi';
+    font-size: 3em;
+}

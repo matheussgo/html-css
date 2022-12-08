@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/*
+Tudo que em HTML é "id", em CSS é "#"
+Tudo em HTML que é "class", em CSS é "."
+O id sobrepõe as configurações de classe
+O id vai herdar tudo da classe "genérica", mas vai sobrepor tudo aquilo que for configurado.
+Exemplo: 
+*/
+body{
+    background-color: #63b995;
+    font-family: sans-serif;
+}
+h1{ /* tag genérica que vai dar estilo a todos h1*/
+    background-color: #E24E1B;
+    color: white
+    }
+    
+/*Aqui o id se sobrepôs às configurações da tag genérica "h1"*/
+h1#principal{ /*Aqui, por exemplo, a "id" virou "#"*/
+    color: #561D25;
+    text-align: center;
+    background-color: #FFE787; 
+    }
+h2{
+    color: #FFE787;
+}
+.basico{
+    color: #464d0a;
+    font-weight: bold;
+}
+.intermediario{
+    color: #e9cf66;
+    font-weight: bold;
+}
+.avançado{
+    color: #561D25;
+    font-weight: bold;
+}
+.destaque{ /*É possível adicionar mais de uma classe em cada elemento HTML*/
+    background-color: antiquewhite;
+}

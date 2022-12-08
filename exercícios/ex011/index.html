@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M[idias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir este site em vários dispostivos diferentes, ou diminua e aumente a janela do navegador.</p>
+    <picture>
+        <source media="(max-width: 720px)" srcset="images/foto-p.png" type="image/png">
+        <source media="(max-width: 900px)" srcset="images/foto-m.png" type="image/png">
+        <img src="images/foto-g.png" alt="Foto Flexível">
+    </picture>
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos aprendera reproduzir áudios em HTML5</p>
+    <audio src="media/sample_movavi-1.mp3" controls autoplay></audio> <!--uma opção de indexação para áudios-->
+    <audio preload="metadata" controls> <!--outra opção, mais complexa-->
+        <source src="media/sample_movavi-7.mp3" type="audio/mpeg">
+        <p>Se o seu navegador não foi capaz de executar o áudio, faça o download do arquivo mp3 <a href="media/sample_movavi-7.mp3" download="sample_movavi-7" type="audio/mpeg">aqui!</a></p>
+    </audio>
+</body>
+</html>

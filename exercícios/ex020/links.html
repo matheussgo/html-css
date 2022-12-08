@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-elementos</title>
+    <style>
+        /*
+        Nas CSS, os seletores personalizados podem ser usado assim:
+        #  = id
+        .  = class
+        :  = pseudo-class
+        :: = pseudo-element
+        >  = children
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: 600;
+
+        }
+        a:visited{
+            color: rgb(0, 105, 23);
+        }
+        a:hover{
+            text-decoration: underline;
+            color: rgb(0, 0, 0);
+        }
+        a:active{/* pseudo-classe ":" */
+            color: yellow;
+        }
+        a::after{/* pseudo-elemento "::"*/
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+        .especial::before{/*pseudo-elemento aplicado na classe*/
+            content: '☯';
+        }
+        .especial::after{ 
+            background-color: aqua;
+            color: brown;
+            content: '☚';
+            font-size: 30px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/" target="_blank" class="especial">Youtube</a></li>
+        <li><a href="https://www.myfonts.com/" target="_blank">My Fonts</a></li>
+        <li><a href="https://www.cursoemvideo.com/" target="_blank">curso em vídeo</a></li>
+
+        <ul>
+            <li>
+                <p><a href="pseudoclasse.html">Ir para Pseudoclasses</a></p>
+            </li>
+            <li>
+                <p><a href="hover.html">Ir para Hover</a></p>
+            </li>
+        </ul>
+
+    </ul>
+</body>
+</html>
