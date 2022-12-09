@@ -165,7 +165,6 @@ aside {
 }
 
 aside > ul {
-    list-style-type: '\2714';
     list-style-position: inside;
     columns: 2;
     font-weight: 700;
