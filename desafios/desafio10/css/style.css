@@ -210,8 +210,6 @@ a.btn-fixed {
 
 a img.btn-img {
     width: 50px;
-    right: 15px;
-    bottom: 15px;
     border-radius: 10px;
     transition: .4s;
 }
