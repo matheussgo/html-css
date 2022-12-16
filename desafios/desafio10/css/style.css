@@ -198,7 +198,7 @@ aside a:hover {
 
 /* botão voltar ao topo */
 
-/* a.btn-fixed {
+a.btn-fixed {
     padding: 10px;
     font-size: 2em;
     text-decoration: none;
@@ -209,6 +209,7 @@ aside a:hover {
 }
 
 a img.btn-img {
+    padding: 3px;
     width: 50px;
     border-radius: 10px;
     transition: .4s;
@@ -216,7 +217,8 @@ a img.btn-img {
 
 a img.btn-img:hover {
     background-color: rgba(255, 255, 255, 0.8);
-} */
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
 
 footer {
     color: white;
