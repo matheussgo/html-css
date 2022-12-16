@@ -26,20 +26,24 @@
     --fonte-padrao: Arial, Verdana, Helvetica, Sans-serif;
 }
 
-header { /* cabeçalho do site */
+/* header { 
     background-image: linear-gradient(var(--cor2), var(--cor4));
     font-family: var(--fonte-titulo);
     height: 150px;
     text-align: center;
     padding-top: 40px;
-}
+} */
 
 header > h1 {
     color: white;
-    margin-bottom: 20px;
+    font-family: var(--fonte-titulo);
+    height: 100px;
+    text-align: center;
+    padding-top: 10px;
     font-size: 3em;
     font-weight: normal;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(var(--cor2), var(--cor4));
 
 }
 
@@ -47,19 +51,18 @@ header > p {
     color: white;
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
-    max-width: 500px;
+    text-align: center;
     margin: auto;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 10px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+    background-color: var(--cor4);
 }
 
 nav {
     background-color: var(--cor4);
     padding: 10px;
     box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.3);
-    /* margin: 10px; */
-    position: relative;
+    
 }
 
 nav > a {
@@ -83,6 +86,7 @@ body {
 main {
     min-width: 300px;
     max-width: 800px;
+    min-height: 350px;
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
@@ -156,7 +160,6 @@ div.video > iframe {
     width: 90%;
     height: 90%;
     border-radius: 10px;
-
 }
 
 aside {
@@ -167,6 +170,7 @@ aside {
 }
 
 aside > ul {
+    margin-top: 30px;
     list-style-position: inside;
     columns: 2;
     font-weight: 700;
@@ -190,6 +194,30 @@ aside > h3 {
 
 aside a:hover {
     color: white;
+}
+
+/* botão voltar ao topo */
+
+a.btn-fixed {
+    padding: 10px;
+    font-size: 2em;
+    text-decoration: none;
+    color: var(--cor4);
+    right: 15px;
+    bottom: 30px;
+    position: fixed;
+}
+
+a img.btn-img {
+    width: 50px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+a img.btn-img:hover {
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 footer {
