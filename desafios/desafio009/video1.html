@@ -12,6 +12,7 @@
         }
 
         body{
+            
             background-color: black;
             background-image: url(espaco-1280x720.jpeg);
             background-position: 100% 100%;
@@ -20,6 +21,8 @@
         }
 
         h1{
+            padding-top: 20px;
+            padding-bottom: 20px;
             font-family: Arial, Helvetica, sans-serif;
             color: white;
             text-align: center;
@@ -32,7 +35,7 @@
         div {
             margin: auto;
             border-radius: 10px;
-            padding: 20px;
+            padding: 15px;
             max-width: 600px;
             background-color: rgba(211, 211, 211, 0.4);
             display: flex;
@@ -52,6 +55,8 @@
         }
 
         #canal {
+            padding: 5px;
+            width: 150px;
             color: white;
             text-decoration: none;
             font-weight: 700;
@@ -59,11 +64,14 @@
         }
 
         #canal:hover {
-            padding: 5px;
             text-decoration: underline;
             border: 1px solid white;
             border-radius: 5px;
             background-color:rgb(24, 27, 170)
+        }
+
+        .btn-back {
+            margin: 24px;
         }
 
     </style>
@@ -84,6 +92,6 @@
         <a id="canal" href="https://www.youtube.com/channel/UC_7e8TJhyU_84USJuHMWJ0g" target="_blank" rel="external">Expansão Astronauta</a>
 
     </div>
-    <p><a href="index.html"><img src="voltar.png" alt="Botão de voltar"></a></p>
+    <p class="btn-back"><a href="index.html"><img src="voltar.png" alt="Botão de voltar"></a></p>
   </body>
 </html>
