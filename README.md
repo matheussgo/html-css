@@ -10,3 +10,5 @@ Neste desafio o professor Guanabara propôs a criação de uma página com os en
 <strong>2. </strong>Meu segundo projeto de site (Desafio "012"), pode ser visualizado aqui: <a href="https://matheussgo.github.io/projeto-cordel/" target="_blank"><strong>Projeto Cordel</strong></a>
 
 Neste novo desafio, o professor disponibilizou as imagens, fontes e o layout do site, propondo que fizessemos um site sobre um cordel (poema popular nordestino) da autoria de Milton Duarte, onde alguns parágrafos do texto teriam uma imagem de fundo, que seria ervelada através de um efeito "parallax". Observe também que o texto adequa o seu tamanho de acordo com o tamanho da tela que está visualizando.
+
+<strong>3. </strong>Já neste terceiro desafio, um exercício mais simples, criei uma tabela com itens mesclados, utilizando "rowspan"e "coslpan", formando um teclado numérico. <a href="https://matheussgo.github.io/html-css/desafios/desafio013/teclado_num.html"><strong>Teclado Numérico</strong></a>
