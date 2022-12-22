@@ -1,7 +1,7 @@
 # html-css
  <h1 style="margin: auto;">Curso de HTML5 e CSS3 do Cursoemvideo</h1>
 
-<section style="max-width: 800px; margin: auto; text-align: justify;">
+<section style="max-width: 800px; margin: auto; text-align: justify; border: 1px solid rgba(0, 0, 0, 0.1); padding-top: 30px;">
   <p>Este é o meu primeiro repositório no Github, que usarei para aprender a utilizar as ferramentas do sistema git e github, bem como para publicar e atualizar os exercícios e desafios propostos pelo professor Gustavo Guanabara no curso gratuito de HTML5 e CSS3 do cursoemvideo.com. Para mais informações sobre os cursos, acesse: <a href="https://www.cursoemvideo.com/" target="_blank" rel="external"><strong>cursoemvideo.com</strong> </a>.</p>
   
   <p><strong>1. </strong>Meu primeiro projeto de um site (Desafio "010"), pode ser visualizado aqui: <a href="https://matheussgo.github.io/projeto-android/" target="_blank"><strong>Projeto Android</strong></a>.</p>
