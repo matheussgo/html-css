@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teclado Numérico</title>
+  <style>
+
+    table {
+      border-radius: 5px;
+      margin: auto;
+      background-color: rgb(46, 46, 46);
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+    }
+
+    td {
+      font-size: 1em;
+      padding-left: 10px;
+      text-align: left;
+      background-color: rgb(29, 29, 29);
+      width: 50px;
+      height: 60px;
+      border: 1px solid white;
+      border-radius: 4px;
+      box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.3);
+      transition: .3s;
+    }
+    td > span {
+      font-size: .7em;
+    }
+
+    td:hover {
+      box-shadow: inset 2px 2px 5px 5px rgb(75, 75, 75);
+    }
+
+  </style>
+</head>
+<body>
+  
+<table>
+  <tr>
+    <td><span>Num<br>Lock</span></td>
+    <td>/</td>
+    <td>*</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>7<br><span>Home</span></td>
+    <td>8<br><span>&#x2B06;</span></td>
+    <td>9<br><span>Pg Up</span></td>
+    <td>+</td>
+  </tr>
+  <tr>
+    <td>4<br><span>&#x2B05;</span></td>
+    <td>5</td> <!--adicionar detalhe depois-->
+    <td>6<br><span>&#x27A1;</span></td>
+    <td>.</td>
+  </tr>
+  <tr>
+    <td>1<br><span>End</span></td>
+    <td>2<br><span>&#x2B07;</span></td>
+    <td>3<br><span>Pg Dn</span></td>
+    <td rowspan="2"><span>Enter</span></td>
+  </tr>
+  <tr>
+    <td colspan="2">0<br><span>Ins</span></td>
+    <td>,<br><span>Del</span></td>
+  </tr>
+</table>
+
+</body>
+</html>
