@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tela de Celular</title>
+  <style>
+    div.celular {
+      background-color: rgb(51, 51, 51);
+      margin: auto;
+      padding: 5px;
+      border: 1px solid rgb(51, 51, 51);
+      border-radius: 20px;
+      box-shadow: inset 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+      width: 300px;
+      height: 600px;
+      display: block;
+      justify-content: center;
+    }
+
+    .icones {
+      color: white;
+      margin-right: 10px;
+      padding: 2px;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    iframe {
+      border: 1px solid black;
+      border-radius: 10px;
+      width: 280px;
+      height: 570px;
+    }
+
+  </style>
+</head>
+<body>
+  
+<div class="celular">
+  <div class="icones">
+    <ion-icon name="logo-whatsapp"></ion-icon>
+    <ion-icon name="wifi-outline"></ion-icon>
+    <ion-icon name="battery-half-outline"></ion-icon>
+  </div>
+
+  <div class="tela">
+
+    <iframe src="https://www.cursoemvideo.com" frameborder="0">
+
+    </iframe>
+  </div>
+</div>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
